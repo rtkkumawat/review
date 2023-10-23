@@ -15,4 +15,5 @@ let userSchema = new mongoose.Schema({
     }
 })
 userSchema.set("timestamps",true)
+
 module.exports = new mongoose.model("user",userSchema)
